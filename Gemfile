@@ -1,6 +1,12 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
+# Uncomment following to run Jekyll locally
+# gem "jekyll", "~> 3.9.3"
+# gem "minimal-mistakes-jekyll"
+# gem "kramdown-parser-gfm"
+
+# Uncomment following to run on Github Pages
+gem "github-pages", "~> 228", group: :jekyll_plugins
 
 gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
